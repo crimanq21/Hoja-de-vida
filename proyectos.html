@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyectos | Cristian Fabian Delgado Manquillo</title>
+    <meta
+        name="description"
+        content="Portafolio de proyectos destacados en IA aplicada, automatización analítica y visualización profesional para hoja de vida."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script src="assets/js/tailwind-config.js"></script>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/projects.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+    <header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
+        <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+            <a href="index.html" class="font-extrabold tracking-tight text-slate-900 text-xl sm:text-2xl">
+                CRISTIAN <span class="text-brand-500">.</span> DELGADO
+            </a>
+
+            <nav class="hidden gap-6 text-sm font-medium text-slate-600 lg:flex">
+                <a href="index.html#perfil" class="transition-colors hover:text-brand-600">Inicio</a>
+                <a href="#demo-agentes" class="transition-colors hover:text-brand-600">Agentes IA</a>
+                <a href="#automatizaciones" class="transition-colors hover:text-brand-600">Automatizaciones</a>
+                <a href="#visualizaciones" class="transition-colors hover:text-brand-600">Visualizaciones</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a
+                    href="index.html"
+                    class="inline-flex items-center justify-center rounded-2xl border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-brand-500 hover:text-brand-700"
+                >
+                    Volver al home
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero relative overflow-hidden bg-slate-900 py-16 text-white sm:py-20">
+            <div class="project-grid absolute inset-0 opacity-40"></div>
+            <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+                <div class="relative z-10">
+                    <span class="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-brand-100">
+                        Portafolio profesional · IA aplicada · Analítica de datos
+                    </span>
+                    <h1 class="mt-6 text-4xl font-extrabold leading-tight sm:text-5xl">
+                        Proyectos destacados para fortalecer la hoja de vida
+                    </h1>
+                    <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+                        Esta página resume soluciones representativas en integración de agentes de IA, automatización analítica
+                        y visualización ejecutiva. La demostración usa datos simulados para ilustrar el valor técnico y de negocio
+                        sin exponer información confidencial.
+                    </p>
+
+                    <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                        <a
+                            href="#demo-agentes"
+                            class="inline-flex items-center justify-center rounded-2xl bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-500/25 transition hover:-translate-y-0.5 hover:bg-brand-700"
+                        >
+                            Ver demo interactiva
+                        </a>
+                        <a
+                            href="#visualizaciones"
+                            class="inline-flex items-center justify-center rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:border-brand-400 hover:bg-white/10"
+                        >
+                            Explorar visualizaciones
+                        </a>
+                    </div>
+
+                    <div class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                        <div class="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+                            <div class="text-sm font-semibold text-brand-100">3 líneas</div>
+                            <div class="mt-2 text-2xl font-extrabold">IA + Datos + BI</div>
+                            <p class="mt-2 text-sm leading-6 text-slate-300">Arquitectura orientada a resultados de negocio.</p>
+                        </div>
+                        <div class="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+                            <div class="text-sm font-semibold text-brand-100">Casos de uso</div>
+                            <div class="mt-2 text-2xl font-extrabold">Citas y PQRD</div>
+                            <p class="mt-2 text-sm leading-6 text-slate-300">Operación, seguimiento y cumplimiento.</p>
+                        </div>
+                        <div class="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+                            <div class="text-sm font-semibold text-brand-100">Visualización</div>
+                            <div class="mt-2 text-2xl font-extrabold">Apache ECharts</div>
+                            <p class="mt-2 text-sm leading-6 text-slate-300">Dashboards claros, profesionales e interactivos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative z-10">
+                    <div class="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/20 backdrop-blur-xl">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-100">Resumen ejecutivo</p>
+                                <h2 class="mt-2 text-2xl font-bold text-white">Capacidades demostradas</h2>
+                            </div>
+                            <span class="status-pill">
+                                <span class="status-dot"></span>
+                                Demo activa
+                            </span>
+                        </div>
+
+                        <div class="mt-6 space-y-4">
+                            <div class="rounded-3xl bg-white/5 p-5">
+                                <h3 class="text-lg font-semibold text-white">Agentes de IA conectados a datos empresariales</h3>
+                                <p class="mt-2 text-sm leading-6 text-slate-300">
+                                    Orquestación de agentes para consultar, sintetizar y priorizar información relevante.
+                                </p>
+                            </div>
+                            <div class="rounded-3xl bg-white/5 p-5">
+                                <h3 class="text-lg font-semibold text-white">Automatizaciones con trazabilidad</h3>
+                                <p class="mt-2 text-sm leading-6 text-slate-300">
+                                    Flujos de clasificación, análisis de volumen, alertas y resumen ejecutivo.
+                                </p>
+                            </div>
+                            <div class="rounded-3xl bg-white/5 p-5">
+                                <h3 class="text-lg font-semibold text-white">Dashboards orientados a decisión</h3>
+                                <p class="mt-2 text-sm leading-6 text-slate-300">
+                                    Visualizaciones para lectura operativa y narrativa ejecutiva de indicadores.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-3xl border border-brand-400/20 bg-brand-500/10 p-5">
+                            <p class="text-sm leading-7 text-brand-50">
+                                Enfoque de valor: transformar datos operativos en conocimiento accionable mediante IA aplicada,
+                                automatización analítica y visualización profesional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 sm:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mb-12 text-center">
+                    <h2 class="text-3xl font-extrabold text-slate-900">Líneas de proyecto destacadas</h2>
+                    <p class="mt-3 text-slate-600">
+                        Casos representativos que evidencian integración entre ingeniería de datos, analítica avanzada e inteligencia artificial.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+                    <article class="portfolio-card">
+                        <span class="portfolio-tag">Agentes IA</span>
+                        <h3 class="mt-5 text-2xl font-bold text-slate-900">Simulación de chat multiagente</h3>
+                        <p class="mt-4 text-sm leading-7 text-slate-600">
+                            Flujo demostrativo donde un agente coordinador recibe la solicitud, consulta un agente de datos
+                            y consolida la respuesta con apoyo de un agente analítico.
+                        </p>
+                        <ul class="mt-5 space-y-3 text-sm text-slate-600">
+                            <li class="rounded-2xl bg-slate-50 px-4 py-3">Consulta de métricas operativas y hallazgos relevantes.</li>
+                            <li class="rounded-2xl bg-slate-50 px-4 py-3">Respuesta orientada a negocio con lenguaje ejecutivo.</li>
+                        </ul>
+                    </article>
+
+                    <article class="portfolio-card">
+                        <span class="portfolio-tag">Automatización</span>
+                        <h3 class="mt-5 text-2xl font-bold text-slate-900">Análisis inteligente de operación</h3>
+                        <p class="mt-4 text-sm leading-7 text-slate-600">
+                            Automatizaciones para clasificar solicitudes, analizar volumen de citas médicas y PQRD,
+                            detectar desviaciones y producir resúmenes accionables.
+                        </p>
+                        <ul class="mt-5 space-y-3 text-sm text-slate-600">
+                            <li class="rounded-2xl bg-slate-50 px-4 py-3">Priorización por criticidad, SLA y causa recurrente.</li>
+                            <li class="rounded-2xl bg-slate-50 px-4 py-3">Seguimiento y alertamiento para equipos operativos.</li>
+                        </ul>
+                    </article>
+
+                    <article class="portfolio-card">
+                        <span class="portfolio-tag">Visualización</span>
+                        <h3 class="mt-5 text-2xl font-bold text-slate-900">Dashboards profesionales en ECharts</h3>
+                        <p class="mt-4 text-sm leading-7 text-slate-600">
+                            Tableros interactivos con series temporales, distribución por categorías y cumplimiento operativo,
+                            diseñados para comunicar resultados de forma clara y ejecutiva.
+                        </p>
+                        <ul class="mt-5 space-y-3 text-sm text-slate-600">
+                            <li class="rounded-2xl bg-slate-50 px-4 py-3">Exploración visual con filtros y narrativa contextual.</li>
+                            <li class="rounded-2xl bg-slate-50 px-4 py-3">Presentación limpia para portafolio y hoja de vida.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo-agentes" class="border-y border-slate-200 bg-white py-16 sm:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mb-12">
+                    <span class="inline-flex rounded-full bg-brand-50 px-4 py-2 text-sm font-semibold text-brand-700">
+                        Demo 1 · Simulación de agentes de IA
+                    </span>
+                    <h2 class="mt-5 text-3xl font-extrabold text-slate-900">Chats de agentes conectados a datos de la empresa</h2>
+                    <p class="mt-4 max-w-4xl text-slate-600">
+                        Simulación interactiva de una conversación entre agentes especializados. El ejemplo representa cómo una arquitectura multiagente
+                        puede consultar datos empresariales, consolidar hallazgos y responder con foco en la operación.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 xl:grid-cols-[0.9fr_1.1fr]">
+                    <aside class="space-y-6">
+                        <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+                            <h3 class="text-xl font-bold text-slate-900">Escenarios</h3>
+                            <p class="mt-2 text-sm leading-6 text-slate-600">
+                                Selecciona un caso de uso para reproducir la conversación entre agentes.
+                            </p>
+                            <div id="scenarioButtons" class="mt-5 flex flex-wrap gap-3"></div>
+
+                            <button
+                                id="playScenarioButton"
+                                type="button"
+                                class="mt-6 inline-flex w-full items-center justify-center rounded-2xl bg-brand-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-700"
+                            >
+                                Reproducir demo
+                            </button>
+                        </div>
+
+                        <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+                            <h3 class="text-xl font-bold text-slate-900">Arquitectura representada</h3>
+                            <div class="mt-4 space-y-3 text-sm text-slate-600">
+                                <div class="architecture-step">
+                                    <span class="architecture-bullet">1</span>
+                                    Agente coordinador interpreta la solicitud y define el flujo.
+                                </div>
+                                <div class="architecture-step">
+                                    <span class="architecture-bullet">2</span>
+                                    Agente de datos consulta métricas operativas y fuentes estructuradas.
+                                </div>
+                                <div class="architecture-step">
+                                    <span class="architecture-bullet">3</span>
+                                    Agente analítico resume hallazgos, riesgos y acciones sugeridas.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-3xl border border-brand-200 bg-brand-50 p-6 shadow-sm">
+                            <h3 class="text-xl font-bold text-slate-900">Valor para negocio</h3>
+                            <ul class="mt-4 space-y-3 text-sm leading-6 text-slate-700">
+                                <li>Respuestas más rápidas sobre estado operativo y causas relevantes.</li>
+                                <li>Menor fricción entre usuarios de negocio y equipos de datos.</li>
+                                <li>Trazabilidad de consultas y recomendaciones priorizadas.</li>
+                            </ul>
+                        </div>
+                    </aside>
+
+                    <div class="space-y-6">
+                        <div class="chat-shell rounded-[2rem] border border-slate-200 bg-slate-950 p-4 shadow-2xl shadow-slate-900/10 sm:p-6">
+                            <div class="chat-shell__header">
+                                <div>
+                                    <p class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-200">Panel de conversación</p>
+                                    <h3 class="mt-1 text-xl font-bold text-white">Simulación multiagente</h3>
+                                </div>
+                                <span class="status-pill">
+                                    <span class="status-dot"></span>
+                                    Datos simulados
+                                </span>
+                            </div>
+
+                            <div id="chatMessages" class="chat-messages mt-6" aria-live="polite"></div>
+                        </div>
+
+                        <div class="grid grid-cols-1 gap-4 md:grid-cols-3" id="scenarioMetrics"></div>
+
+                        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-xl font-bold text-slate-900">Resumen ejecutivo del escenario</h3>
+                            <p id="scenarioSummary" class="mt-3 text-sm leading-7 text-slate-600"></p>
+                            <div class="mt-5" id="scenarioHighlights"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="automatizaciones" class="py-16 sm:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mb-12">
+                    <span class="inline-flex rounded-full bg-brand-50 px-4 py-2 text-sm font-semibold text-brand-700">
+                        Demo 2 · Automatizaciones con IA
+                    </span>
+                    <h2 class="mt-5 text-3xl font-extrabold text-slate-900">Automatizaciones para citas médicas, PQRD y seguimiento operacional</h2>
+                    <p class="mt-4 max-w-4xl text-slate-600">
+                        Selección de escenarios donde la inteligencia artificial ayuda a clasificar eventos, medir cantidades, resumir novedades
+                        y generar alertas que apoyan la toma de decisiones.
+                    </p>
+                </div>
+
+                <div class="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex flex-col gap-6 xl:flex-row xl:items-start xl:justify-between">
+                        <div>
+                            <h3 id="automationTitle" class="text-2xl font-bold text-slate-900"></h3>
+                            <p id="automationDescription" class="mt-3 max-w-3xl text-sm leading-7 text-slate-600"></p>
+                        </div>
+                        <div id="automationButtons" class="flex flex-wrap gap-3"></div>
+                    </div>
+
+                    <div id="automationMetrics" class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4"></div>
+
+                    <div class="mt-8 grid grid-cols-1 gap-6 xl:grid-cols-[0.95fr_1.05fr]">
+                        <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                            <h4 class="text-lg font-bold text-slate-900">Flujo de automatización</h4>
+                            <div id="automationFlow" class="mt-5 space-y-4"></div>
+                        </div>
+
+                        <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                            <h4 class="text-lg font-bold text-slate-900">Resumen generado por IA</h4>
+                            <p id="automationNarrative" class="mt-4 text-sm leading-7 text-slate-600"></p>
+
+                            <div class="mt-6 rounded-3xl border border-brand-200 bg-white p-5">
+                                <div class="text-sm font-semibold text-slate-900">Recomendaciones priorizadas</div>
+                                <ul id="automationRecommendations" class="mt-4 space-y-3 text-sm leading-6 text-slate-600"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visualizaciones" class="border-t border-slate-200 bg-white py-16 sm:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mb-12">
+                    <span class="inline-flex rounded-full bg-brand-50 px-4 py-2 text-sm font-semibold text-brand-700">
+                        Demo 3 · Visualizaciones en Apache ECharts
+                    </span>
+                    <h2 class="mt-5 text-3xl font-extrabold text-slate-900">Visualizaciones profesionales para narrativa ejecutiva</h2>
+                    <p class="mt-4 max-w-4xl text-slate-600">
+                        Dashboard interactivo que cambia según el escenario seleccionado. Muestra tendencias, distribución operacional y cumplimiento,
+                        con una estética orientada a portafolio profesional.
+                    </p>
+                </div>
+
+                <div class="mb-6 flex flex-col gap-4 rounded-3xl border border-slate-200 bg-slate-50 p-5 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                        <div class="text-sm font-semibold uppercase tracking-[0.18em] text-brand-700">Filtro de visualización</div>
+                        <div class="mt-2 text-lg font-bold text-slate-900">Selecciona el contexto a visualizar</div>
+                    </div>
+                    <div id="chartContextButtons" class="flex flex-wrap gap-3"></div>
+                </div>
+
+                <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
+                    <div class="chart-card xl:col-span-2">
+                        <div class="chart-card__header">
+                            <div>
+                                <div class="text-sm font-semibold uppercase tracking-[0.18em] text-brand-700">Tendencia</div>
+                                <h3 class="mt-2 text-xl font-bold text-slate-900">Volumen operativo mensual</h3>
+                            </div>
+                            <p class="max-w-xl text-sm leading-6 text-slate-500">
+                                Comportamiento mensual del proceso seleccionado, con lectura de capacidad operativa y evolución reciente.
+                            </p>
+                        </div>
+                        <div id="volumeChart" class="chart-box"></div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-card__header">
+                            <div>
+                                <div class="text-sm font-semibold uppercase tracking-[0.18em] text-brand-700">Distribución</div>
+                                <h3 class="mt-2 text-xl font-bold text-slate-900">Clasificación y estados</h3>
+                            </div>
+                        </div>
+                        <div id="breakdownChart" class="chart-box chart-box--medium"></div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-card__header">
+                            <div>
+                                <div class="text-sm font-semibold uppercase tracking-[0.18em] text-brand-700">Cumplimiento</div>
+                                <h3 class="mt-2 text-xl font-bold text-slate-900">SLA y canal de ingreso</h3>
+                            </div>
+                        </div>
+                        <div id="complianceChart" class="chart-box chart-box--medium"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 py-12 text-center text-slate-400">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="text-lg font-bold uppercase tracking-[0.2em] text-white">Cristian Fabian Delgado Manquillo</div>
+            <p class="mt-3 text-sm">Portafolio web de proyectos orientados a IA aplicada, automatización y analítica avanzada.</p>
+            <p class="mt-4 text-xs opacity-70">Demostración visual con datos simulados y enfoque profesional para hoja de vida.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/projects.js" defer></script>
+</body>
+</html>
